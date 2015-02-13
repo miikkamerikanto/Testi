@@ -1,0 +1,22 @@
+@font-face {
+	font-family: exo-black;
+	src: url("../fonts/Exo-Black.otf");
+}
+
+h1, h2, h3 {
+	font-family: exo-black, Helvetica, sans-serif;
+	font-size: 3rem;
+	font-size: 3em;
+	font-size: 28px;
+}
+
+img, media {
+  max-width: 100%;
+}
+
+header {
+	background-color: #ecf0f1;
+	padding: 0 20px;
+}
+
+/* No files to import found in partials/components/**\/* */

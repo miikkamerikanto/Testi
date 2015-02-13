@@ -1,0 +1,16 @@
+name = Awesomeness Omega
+description = My first responsive custom theme.
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+base theme = omega
+
+; Styles
+stylesheets[all][] = css/awesomeness_omega.normalize.css
+stylesheets[all][] = css/awesomeness_omega.hacks.css
+stylesheets[all][] = css/awesomeness_omega.styles.css
+stylesheets[all][] = css/awesomeness_omega.no-query.css
+stylesheets[all][] = css/awesomeness_omega.custom.css
+
+; Scripts
+scripts[] = js/awesomeness_omega.behaviors.js

@@ -1,0 +1,136 @@
+@font-face {
+	font-family: exo-black;
+	src: url("../fonts/Exo-Black.otf");
+}
+
+@font-face {
+	font-family: exo-regular;
+	src: url("../fonts/Exo-Regular.otf");
+}
+
+@font-face {
+	font-family: exo-light;
+	src: url("../fonts/Exo-Light.otf");
+}
+
+@font-face {
+	font-family: exo-lightItalic;
+	src: url("../fonts/Exo-LightItalic.otf");
+}
+
+/* FONTIT */
+h1, h2, h3 {
+	font-family: exo-black, Helvetica, sans-serif;
+	font-size: 36px;
+	font-size: 3em;
+	font-size: 3rem;
+}
+
+input, label {
+	font-family: exo-regular, Helvetica, sans-serif;
+	font-size: 20px;
+	font-size: 1.5em;
+	font-size: 1.5rem;
+}
+
+.l-page a, p {
+	font-family: exo-light, Helvetica, sans-serif;
+	font-size: 16px;
+	font-size: 1.25em;
+	font-size: 1.25rem;
+}
+
+/* Block and node content (for example front page webform) padding */
+.block, .node__content {
+	padding: 0px 20px;
+}
+
+header {
+	background-color: #ecf0f1;
+	padding: 0 20px;
+}
+
+/* Hide annoying stuff */
+.block__title, .l-content > h1, .breadcrumb {display: none;}
+
+/* Link menu styling */
+.menu li {
+	list-style: none;
+	display: inline-block;
+}
+.menu a {
+	color: black;
+	text-decoration: none;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+.menu a:hover {
+	background-color: #3498db;
+}
+
+.l-region--highlighted {
+	background-color: #2c3e50;
+	padding: 60px;
+}
+.l-region--highlighted h2 {
+	text-align: center;
+	color: white;
+	font-size: 64px;
+	font-size: 6em;
+	font-size: 6rem;
+}
+
+/* 960px width centered content if the 
+width of the screen is more than 960px */
+@media all and (min-width: 960px) {
+	/* Header */
+	.l-branding {width: 960px;}
+	/* Block content */
+	div .block {width: 960px;}
+	/* Page (Node) content */
+	.node__content {width: 960px;}
+	div {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* Handle the logo and the main menu */
+.l-branding {
+	display: inline-block;
+	max-width: 250px;
+}
+.l-region--header {
+	display: inline-block;
+	max-width: 450px;
+}
+
+/* Center the logo-merkki images */
+img.merkki {
+	display: block;
+	margin: 0 auto 100px auto;
+}
+
+/* Submit button styling */
+input[type=submit] {
+	margin-right: 20px;
+	padding: 10px 30px;
+	background: #3498db;
+	border: 0 none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+}
+
+/* Footer styling */
+footer {
+	background-color: #2c3e50;
+	padding: 50px 20px;
+}
+footer h2, footer p, footer a {
+	color: white; 
+	margin-top: 10px;
+}
+
+
